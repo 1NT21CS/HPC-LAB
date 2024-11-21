@@ -1,3 +1,4 @@
+/*University awards gold medals to the student who has scored highest CGPA. Write aprogram to find the student with highest CGPA in a list of numbers using OpenMP.*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
