@@ -37,6 +37,6 @@ int main() {
     }
     printf("Total Amount : %d",ans);
     et=clock();
-    print("\nTime taken:%lf",(double)(et-st)/CLOCKS_PER_SEC);
+    printf("\nTime taken:%lf",(double)(et-st)/CLOCKS_PER_SEC);
 }
 
