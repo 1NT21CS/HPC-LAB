@@ -1,3 +1,6 @@
+/* X on the earth, to find his accurate position on the globe werequire the value of Pi. Write a program to compute the value of pi function by NumericalIntegration 
+using OpenMP PARALLEL section.
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
