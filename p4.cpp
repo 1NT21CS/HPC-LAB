@@ -1,3 +1,6 @@
+/* Using OpenMP, Design and develop a multi-threaded program to generate and printFibonacci Series. One thread must generate the numbers up to the specified 
+limit and another thread must print them. Ensure proper synchronization.
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
