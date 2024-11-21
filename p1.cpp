@@ -51,6 +51,6 @@ int main() {
 			printf("     %3d    %6d\n",vec[i],res[i]);
 	}
 	et=clock();
-	printf("Time taken: %lf\n",(double)(et-st)/CLOCKS_PER_SEC):
+	printf("Time taken: %lf\n",(double)(et-st)/CLOCKS_PER_SEC);
 }
 
