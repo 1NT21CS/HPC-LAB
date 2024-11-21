@@ -1,3 +1,5 @@
+/* Given a nxn matrix A and a vector x of length n, their product y=A-x, write a program to implement the multiplication using OpenMP PARALLEL directive.
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<omp.h>
