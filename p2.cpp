@@ -1,10 +1,15 @@
+/*Consider a Scenario where a person visits a supermarket for shopping. He purchases various items in different sections such as clothing, gaming, grocery, 
+stationary. Write anopen MP program to process his bill parallelly in each section and display the final amount to be paid. (sum of elements parallelly)*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<omp.h>
+#include<time.h>
 int main() {
     int r,i,ans=0;
     printf("Enter number of sections : ");
     scanf("%d",&r);
+    time_t st,et;
+    st=clock();
     int **arr=(int**)malloc(r*sizeof(int*));
     int *size=(int*)malloc(r*sizeof(int));
     omp_set_num_threads(r);
@@ -31,5 +36,7 @@ int main() {
         printf("\n");
     }
     printf("Total Amount : %d",ans);
+    et=clock();
+    print("\nTime taken:%lf",(double)(et-st)/CLOCKS_PER_SEC);
 }
 
