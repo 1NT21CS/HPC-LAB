@@ -7,6 +7,8 @@ int main() {
 	scanf("%d",&n);
 	printf("Enter the size of vector : ");
 	scanf("%d", &m);
+	time_t st,et;
+	st=clock();
 	if (m!=n) {
 		printf("Multiplication is not possible.\n");
 		exit(0);
@@ -45,5 +47,7 @@ int main() {
 		else
 			printf("     %3d    %6d\n",vec[i],res[i]);
 	}
+	et=clock();
+	printf("Time taken: %lf\n",(double)(et-st)/CLOCKS_PER_SEC):
 }
 
