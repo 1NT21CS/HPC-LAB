@@ -35,3 +35,8 @@ int main(int argc, char* argv[])
 		printf("Must specify %d tasks. Terminating.\n", SIZE);
 	MPI_Finalize();
 }
+
+/*Execution:-
+- mpic++ p8.cpp -o p8.exe
+- mpirun -np 16 ./p8.exe
+*/
