@@ -17,3 +17,8 @@ int main(int argc, char** argv)
         printf("Total Mangoes picked by %d Robots = %d\n", numproc, total_sum);
     MPI_Finalize();
 }
+
+/*Execution:-
+- mpic++ p6.cpp -o p6.exe
+- mpirun -np 4 ./p6.exe
+*/
