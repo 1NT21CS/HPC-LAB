@@ -22,3 +22,8 @@ int main(int argc, char* argv[])
 	printf("rank= %d Recvbuf: %.1f\n", rank, recvbuf);
 	MPI_Finalize();
 }
+
+/*Execution:-
+- mpic++ p7.cpp -o p7.exe
+- mpirun -np 4 ./p7.exe
+*/
