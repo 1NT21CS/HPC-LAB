@@ -42,3 +42,8 @@ int main(int argc, char* argv[])
 	if (rank == 0) printf("Time taken by NonBlocking send/receive : %lf\n", (double)(et - st) / CLOCKS_PER_SEC);
 	MPI_Finalize();
 }
+
+/*Execution commands:-
+- mpic++ p9.cpp -o p9.exe
+- mpirun -np 4 ./p9.exe
+*/
